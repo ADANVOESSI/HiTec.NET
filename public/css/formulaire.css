@@ -1,0 +1,222 @@
+/*********CSS FORMULAIRE************/
+
+
+  /*Connexion*/
+  #openModal2,#openModal{
+    display: none;
+}
+
+.modalDialog {
+position: fixed;
+font-family: Arial, Helvetica, sans-serif;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0, 0, 0, 0.1);
+z-index: 999;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+
+.modalDialog > div {
+width: 35rem;
+height: 30rem;
+position: relative;
+margin: 5% auto;
+padding: 5px 20px 13px 20px;
+border-radius: 10px;
+background-color: white;
+}
+.close {
+background: #606061;
+color: #ffffff;
+line-height: 25px;
+position: absolute;
+right: -12px;
+text-align: center;
+top: -10px;
+width: 24px;
+text-decoration: none;
+font-weight: bold;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 1px 1px 3px #000;
+-webkit-box-shadow: 1px 1px 3px #000;
+box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+background: #6ed1d8;
+}
+
+/*A  retirer*/
+a[href="#openModal"]{
+text-decoration: none;
+display: flex;
+flex-direction: column;
+}
+
+a[href="#openModal2"]{
+text-decoration: none;
+display: flex;
+flex-direction: column;
+}
+
+/* *********/
+#openModal form fieldset{
+border-color: transparent;
+}
+
+  #openModal form fieldset:nth-child(1) div.form-connexion-flex>a:nth-last-child(2){
+text-decoration: none;
+/* color: var(--clr-links-and-buttons); */
+background-color: #0c6588;
+color: white;
+padding: 0.5rem;
+}
+#openModal form fieldset:nth-child(1),  #openModal form fieldset:nth-child(2){
+padding-bottom: 1rem;
+background-color: rgb(237, 232, 232);
+}
+#openModal form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#openModal form fieldset:nth-child(2)>a:nth-last-child(1){
+text-decoration: none;
+/* color: var(--clr-links-and-buttons); */
+background-color: #0c6588;
+color: white;
+padding: 0.5rem;
+}
+
+
+#openModal form fieldset:nth-child(1) input{
+margin-top: 0.7rem;
+margin-bottom: 0.7rem;
+height: 1.7rem;
+width: 20rem;
+padding: 0;
+}
+#openModal form fieldset:nth-child(1) div.form-connexion-flex
+{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+}
+#openModal form fieldset:nth-child(1) div.form-connexion-flex:nth-last-child(1){
+text-align: left;
+}
+#openModal form fieldset:nth-child(1) div.form-connexion-flex:nth-last-child(1) a:nth-child(2){
+color: #0c6588;
+}
+#openModal form fieldset:nth-child(1) div.form-connexion-flex:nth-last-child(1){
+margin-top: 0.5rem;
+}
+#openModal form fieldset:nth-child(1) div.form-connexion-flex>a:nth-last-child(1){
+width: 20rem;
+}
+
+.vertical-line{
+        border: 1.5px solid white;
+        background-color: white;
+        width: auto;
+    }
+/*Connexion*/
+
+
+
+/*Inscription*/
+    .modalDialog2 {
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.1);
+        z-index: 9;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        /* pointer-events: none; */
+    }
+
+.modalDialog2 > div {
+width: 35rem;
+height: 30rem;
+position: relative;
+margin: 5% auto;
+padding: 5px 20px 13px 20px;
+border-radius: 10px;
+background-color: white;
+}
+
+
+/* *********/
+#openModal2 form fieldset{
+border-color: transparent;
+}
+
+  #openModal2 form fieldset:nth-child(1) div.form-connexion-flex>a:nth-last-child(2){
+text-decoration: none;
+/* color: var(--clr-links-and-buttons); */
+background-color: #0c6588;
+color: white;
+padding: 0.5rem;
+}
+#openModal2 form fieldset:nth-child(1),  #openModal form fieldset:nth-child(2){
+padding-bottom: 1rem;
+background-color: rgb(237, 232, 232);
+}
+#openModal2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#openModal2 form fieldset:nth-child(2)>a:nth-last-child(1){
+text-decoration: none;
+/* color: var(--clr-links-and-buttons); */
+background-color: #0c6588;
+color: white;
+padding: 0.5rem;
+}
+
+
+#openModal2 form fieldset:nth-child(1) input{
+margin-top: 0.7rem;
+margin-bottom: 0.7rem;
+height: 1.7rem;
+width: 20rem;
+padding: 0;
+}
+#openModal2 form fieldset:nth-child(1) div.form-connexion-flex
+
+{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+}
+
+#openModal2 form fieldset:nth-child(1) div.form-connexion-flex:nth-last-child(1){
+text-align: left;
+}
+
+#openModal form fieldset:nth-child(1) div.form-connexion-flex:nth-last-child(1) a:nth-child(2){
+color: #0c6588;
+}
+
+#openModal2 form fieldset:nth-child(1) div.form-connexion-flex:nth-last-child(1){
+margin-top: 0.5rem;
+}
+
+#openModal2 form fieldset:nth-child(1) div.form-connexion-flex>a:nth-last-child(1){
+width: 20rem;
+}
