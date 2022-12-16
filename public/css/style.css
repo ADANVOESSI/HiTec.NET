@@ -687,6 +687,10 @@ footer a {
     flex-wrap: wrap;
 }
 
+.div {
+    display: none;
+}
+
 div.rubric {
     flex-wrap: wrap;
     border: 1px solid black;
@@ -694,7 +698,6 @@ div.rubric {
 }
 
 div.rubric>ul{
-    /* display: none; */
     margin: 1rem;
 }
 

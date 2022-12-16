@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,7 +84,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="periph">
+                        <a href="#" class="periph">
                             <svg width="25px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
                             </svg>
@@ -114,93 +115,86 @@
     </header>
     <div class="container">
 
+    <div class="div">
+        <div class="rubric flex">
+            <ul>
+                <h3 class="margin">Périphériques</h3>
+                
+                <li>Ecran PC</li>
+                <li>Clavier/souris</li>
+                <li>Imprimante</li>
+                <li>Clef USB</li>
+                <li>Disque dur externe</li>
+                <li>Onduleur</li>
+                <li>Enceinte PC</li>
+                <li>Casque audio</li>
+                <li>Casque VR</li>
+                <li>Musique pro</li>
+                <li>Tablette graphique</li>
 
+            </ul>
+            <ul>
+                <h3 class="margin">Boitier</h3>
+                
+                <li>Alimentation</li>
+                <li>Disque dur</li>
+                <li>Disque SSD</li>
+                <li>Carte mère</li>
+                <li>Carte graphique</li>
+                <li>Mémoire PC</li>
+                <li>Processus</li>
+                <li>Refroidissement</li>
+                <li>Kit upgrade PC</li>
+                <li>Batterie PC portable</li>
 
+            </ul>
+            <ul>
+                <h3 class="margin">Imprimante</h3>
+                
+                <li>Cartouche</li>
+                <li>Toner</li>
+                <li>Ruban</li>
+                <li>Papier</li>
+            </ul>
+            <ul>
+                <h3 class="margin">Connectique</h3>
+                
+                <li>Câbles PC</li>
+                <li>Adaptateurs PC</li>
+                <li>Parafoudre</li>
+                <li>Multiprise</li>
+                <li>Câble secteur</li>
+                <li>Câble HDMI</li>
+                <li>Switch HDMI</li>
+                <li>Adaptateur HDMI</li>
+                <li>Câble Rj45</li>
+                <li>Connectique Rj45</li>
+                <li>Câble audio numérique</li>
+                <li>Câble audiophile</li>
+                <li>Adaptateur Audio</li>
+                <li>Câble audi jack</li>
 
-
-    <div class="rubric flex">
-        <ul>
-            <h3 class="margin">Périphériques</h3>
-            <br>
-            <li>Ecran PC</li>
-            <li>Clavier/souris</li>
-            <li>Imprimante</li>
-            <li>Clef USB</li>
-            <li>Disque dur externe</li>
-            <li>Onduleur</li>
-            <li>Enceinte PC</li>
-            <li>Casque audio</li>
-            <li>Casque VR</li>
-            <li>Musique pro</li>
-            <li>Tablette graphique</li>
-
-        </ul>
-        <ul>
-            <h3 class="margin">Boitier</h3>
-            <br>
-            <li>Alimentation</li>
-            <li>Disque dur</li>
-            <li>Disque SSD</li>
-            <li>Carte mère</li>
-            <li>Carte graphique</li>
-            <li>Mémoire PC</li>
-            <li>Processus</li>
-            <li>Refroidissement</li>
-            <li>Kit upgrade PC</li>
-            <li>Batterie PC portable</li>
-
-        </ul>
-        <ul>
-            <h3 class="margin">Imprimante</h3>
-            <br>
-            <li>Cartouche</li>
-            <li>Toner</li>
-            <li>Ruban</li>
-            <li>Papier</li>
-        </ul>
-        <ul>
-            <h3 class="margin">Connectique</h3>
-            <br>
-            <li>Câbles PC</li>
-            <li>Adaptateurs PC</li>
-            <li>Parafoudre</li>
-            <li>Multiprise</li>
-            <li>Câble secteur</li>
-            <li>Câble HDMI</li>
-            <li>Switch HDMI</li>
-            <li>Adaptateur HDMI</li>
-            <li>Câble Rj45</li>
-            <li>Connectique Rj45</li>
-            <li>Câble audio numérique</li>
-            <li>Câble audiophile</li>
-            <li>Adaptateur Audio</li>
-            <li>Câble audi jack</li>
-
-        </ul>
+            </ul>
+        </div>
     </div>
-
-
-
-
-
-
-
-
-
-
         <div id="openModal" class="modalDialog">
             <div>
-                <a href="#close" title="Close" class="close" id="close1">X</a>
+                <a href="#close" title="Close" class="close" id="close1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd" />
+                    </svg> 
+                </a>
                     <h2>Mon compte</h2>
-                <form action="#">
+                <form action="index.php" method="post">
                     <fieldset>
                         <p>J'ai déja un compte</p>
                         <div class="form-connexion-flex">
+                            
                             <div>
                                 <label for="">Mon addresse email</label>
                             </div>
                             <div>
-                                <input type="text"> <br>
+                                <input type="email" required="required"> 
                             </div>
                                                     
                         </div>
@@ -210,19 +204,19 @@
                                 <label for="">Mon mot de passe</label>
                             </div>
                             <div>
-                                <input type="password"> <br>
+                                <input type="password" required="required"> 
                             </div>
                         </div>
                         <div class="vertical-line"></div>
 
                         <div class="form-connexion-flex">
-                            <a href="">Se connecter</a>
-                            <a href="">J'ai oublier mon mot de passe</a>
+                            <button type="submit" class="button">Se connecter</button>
+                            <a href="#">J'ai oublier mon mot de passe</a>
                         </div> 
                     </fieldset>
 
                     <fieldset>
-                        <p>Je n'ai pas de compte</p> <br>
+                        <p>Je n'ai pas de compte</p> 
                         <a href="#">Créer un compte</a>
                     </fieldset>
                 </form>
@@ -230,70 +224,97 @@
             </div>
         </div>
 
-
-        <div id="openModal2" class="modalDialog2">
-            <div>
-                <a title="Close" class="close" id="close2">X</a>
-                <h2>Création de compte</h2>
-                <form action="#">
-                    <fieldset>
-                        <p>Informations personnelle</p>
-                        <div class="vertical-line"></div>
-                        <div class="form-connexion-flex">
-                            <div>
-                                <label for="">Nom</label>
-                            </div>
-                            <div>
-                                <input type="text"> <br>
-                            </div>
-        
-                        </div>
-                        <div class="form-connexion-flex">
-                            <div>
-                                <label for="">Prénom</label>
-                            </div>
-                            <div>
-                                <input type="text"> <br>
-                            </div>                      
-                        </div>
-                        <div class="form-connexion-flex">
-                            <div>
-                                <label for="">Nom d'utilisateur</label>
-                            </div>
-                            <div>
-                                <input type="text"> <br>
-                            </div>
-                        
-                        </div>
-                        <div class="vertical-line"></div>
-                        <div class="form-connexion-flex">
-                            <div>
-                                <label for="">Mot de passe</label>
-                            </div>
-                            <div>
-                                <input type="password"> <br>
-                            </div>
-                        </div>
-                        <div class="form-connexion-flex">
-                            <div>
-                                <label for="">Confirmer mot de passe</label>
-                            </div>
-                            <div>
-                                <input type="password"> <br>
-                            </div>
-                        </div>
-                        <div class="vertical-line"></div>
-        
-                        <div class="form-connexion-flex">
-                            <a href="">S'inscrire</a>
-                            <a href="" id="redirect_connexion">J'ai déja un compte </a>
-                        </div>
+         <div id="openModal2" class="modalDialog2">
+        <div>
+            <a href="#close" title="Close" class="close" id="close2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd" />
+                </svg>  
+            </a>
+            <h2>Création de compte</h2>
+            <form action="../App/Controllers/registercontroller.inc.php" method="post">
+                <fieldset>
+                    <p>Informations personnelle</p>
                     
-                    </fieldset>
-                </form>
-        
-            </div>
+                    <div class="form-connexion-flex">
+                        <div>
+                            <label for="lastname">Nom</label>
+                        </div>
+                        <div>
+                            <input type="text" name="lastname" id="lname" required="required"> 
+                        </div>
+    
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="form-connexion-flex">
+
+                        <div>
+                            <label for="firstname">Prénom</label>
+                        </div>
+                        <div>
+                            <input type="text" name="firstname" id="fname" required="required"> 
+                        </div>   
+
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="form-connexion-flex">
+                        
+                        <div>
+                            <label for="username">Nom d'utilisateur</label>
+                        </div>
+                        <div>
+                            <input type="text" name="username"  id="utilisateur" required="required"
+                            > 
+                        </div>
+                        
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="form-connexion-flex">
+                        
+                        <div>
+                            <label for="email">Email</label>
+                        </div>
+                        <div>
+                            <input type="email" required= "required" name="email" id="email"> 
+                        </div>
+                        
+                    </div>
+                    <div class="vertical-line"></div>
+
+                </fieldset>
+
+                <fieldset>    
+                    <div class="form-connexion-flex">
+                        <div>
+                            <label for="pwd">Mot de passe</label>
+                        </div>
+                        <div>
+                            <input type="password" required="required" name="pwd" id="password"> 
+                        </div>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="form-connexion-flex">
+                        <div>
+                            <label for="c_pwd">Confirmer mot de passe</label>
+                        </div>
+                        <div>
+                            <input type="password" required="required" 
+                            name="c_pwd" id="passwordconf"> 
+                        </div>
+                    </div>
+                    <div class="vertical-line"></div>
+    
+                    <div class="form-connexion-flex">
+                        <button type="submit" class="button" name="inscription" id="submit"  >S'inscrire</button>
+                        <a href="#" id="redirect_connexion">J'ai déja un compte </a>
+
+                    </div>
+                
+                </fieldset>
+            </form>
+    
         </div>
+    </div>
         
         <main>
             <section class="beforpre ">

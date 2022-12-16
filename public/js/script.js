@@ -1,9 +1,17 @@
+const inplName = document.querySelector('#lname');   
+const inpfName = document.querySelector('#fname');
+const inpUser = document.querySelector('#utilisateur');
+const inpEmail = document.querySelector('#email');
+const inpPassword = document.querySelector('#password');
+const inpConfirm = document.querySelector('#passwordconf');
+const inpSubmit = document.querySelector('#submit');
+
+let result =  "<?= $result ?>";
+
 let select=document.querySelector(".user");
-    console.log(select);
+
 
 let connexionAccess = document.querySelector("#openModal form fieldset:nth-child(2) a")
-
-// let linkConnexionToModal2 = document.querySelector("a[href='#openModal2']");
 
 let div1=document.getElementById("openModal");
 
@@ -16,12 +24,13 @@ let redirect_connexion=document.querySelector("#redirect_connexion");
 let close1=document.querySelector("#close1");
 
 let close2=document.querySelector("#close2");
-console.log(connexionAccess);
-console.log(div1);
-console.log(div2);
+
+
+
 select.addEventListener("click", function(e){
     e.preventDefault();
     div1.style.display="block";
+    inpSubmit.setAttribute("disabled","disabled")
 });
 
 connexionAccess.addEventListener("click", function(e){
@@ -92,13 +101,13 @@ let tab=["images/product-1/slide-1-lg.jpg",
 
         let modal_image=document.querySelector("#modal_image")
         let images_zone=document.querySelectorAll(".images_zone img");
-        console.log(images_zone);
+    
         images_zone.forEach(function (element, index) {   
                 element.addEventListener("click", function (e) {
                     e.preventDefault();
-                    console.log("click");
+                
                     let srcSource = element.getAttribute("src")
-                    console.log(srcSource);
+              
                     modal_image.setAttribute("src",srcSource);
                     // element.classList.add("border_img");
                 })
@@ -117,8 +126,7 @@ let tab=["images/product-1/slide-1-lg.jpg",
 
 let addBtn = document.querySelector('#addBtn');
 let span_increment = document.querySelector(".span_increment");
-console.log(addBtn);
-console.log(span_increment.textContent);
+
 addBtn.addEventListener("click", function(e){
             e.preventDefault(); 
             
@@ -127,19 +135,69 @@ addBtn.addEventListener("click", function(e){
         })
         
         
-// let addBtn = document.querySelectorAll(".button_add");
-// addBtn.forEach(function(element, index){
-//     element.addEventListener("click", function(e){
-//         e.preventDefault(); 
-        
-//         span_increment.textContent++;
-//         span_increment.style.display="block"
-//     })
-// })
+
 
 let click = document.querySelector(".periph");
-click.addEventListener("click", function() {
-    document.querySelector(".rubric").style= "display: none";
+let div = document.querySelector(".div");
+click.addEventListener("click", function(e) {
+    e.preventDefault();
+    if(div.style.display == "block") {
+        div.style.display = "none"; 
+    }else{
+        div.style.display = "block"; 
+    }
 });
 
+
+/*********INSCRIPTION MODAL************/
+
+
+
+
+if(inplName.value.trim().length > 0  ) {
+    inpSubmit.removeAttribute("disabled","disabled")
+   
+}else{
+    inpSubmit.setAttribute("disabled","disabled")
+}
+
+inpfName.addEventListener('input', (e) => {
+    if(inpfName.value.trim().length > 0) {
+        inpSubmit.removeAttribute("disabled","disabled")
+       
+    }else{
+        inpSubmit.setAttribute("disabled","disabled")
+    }
+})
+
+inpUser.addEventListener('input', (e) => {
+    if(inpUser.value.trim().length > 0) {
+        inpSubmit.removeAttribute("disabled","disabled")
+       
+    }else{
+        inpSubmit.setAttribute("disabled","disabled")
+    }
+    
+})
+
+if(result === inpEmail.value.trim()) {
+    alert("Erreur de saisie. Email déjà existant!!!!!!")
+}
+console.log(result);
+// //check email
+// inpEmail.addEventListener('input', (e) => {
+
+    
+//     const regexEmail = /\S+@\S+\.\S+/;
+//     //search methods will search for regexEmail in the input value and return the position of the match, if it is 0 it is a valid match
+//     if(e.target.value.search(regexEmail) === 0){
+
+//         inpSubmit.setAttribute("disabled","disabled")
+        
+//         //if the position is -1 it means that there is no match, the input value doesn't contain regexEmail
+//     } else if(e.target.value.search(regexEmail) === -1) {
+//         inpSubmit.removeAttribute("disabled","disabled")
+
+//     }
+// })
 
